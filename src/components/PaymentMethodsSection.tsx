@@ -90,10 +90,13 @@ const PaymentMethodsSection = ({ isEnglish }: { isEnglish: boolean }) => {
           viewport={{ once: true, margin: "-100px" }}
         >
           {paymentMethods.map((method) => (
-            <motion.div
+            <motion.a
               key={method.id}
+              href={method.link}
+              target="_blank"
+              rel="noopener noreferrer" 
+              className="card hover:border-l-4 hover:border-l-primary-600 transition-all group cursor-pointer"
               variants={itemVariants}
-              className="card hover:border-l-4 hover:border-l-primary-600 transition-all group h-full"
             >
               <div className="flex flex-col h-full">
                 <div className="mb-4 group-hover:text-primary-600 transition-colors">{method.icon}</div>
@@ -163,7 +166,7 @@ const PaymentMethodsSection = ({ isEnglish }: { isEnglish: boolean }) => {
                   </div>
                 )}
               </div>
-            </motion.div>
+            </motion.a>
           ))}
         </motion.div>
       </div>
