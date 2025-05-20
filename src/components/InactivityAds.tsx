@@ -14,37 +14,37 @@ const InactivityAds: React.FC<InactivityAdsProps> = ({ timeout = 10000 }) => {
   const ads = [
     {
       id: 1,
-      image: "/pic7.JPG",
+      image: "/pic7.jpg",
       title: "Temple",
       
     },
     {
       id: 2,
-      image: "/pic5.JPG",
+      image: "/pic5.jpg",
       title: "Development",
       
     },
     {
       id: 3,
-      image: "/pic8.JPG",
+      image: "/pic8.jpg",
       title: "Green City Program",
       
     },
     {
       id: 4,
-      image: "/pic9.JPG",
+      image: "/pic9.jpg",
       title: "Urban Development",
      
     },
     {
       id: 5,
-      image: "/pic1.JPG",
+      image: "/pic1.jpg",
       title: "Economic Zone",
       
     },
     {
       id: 6,
-      image: "pic4.JPG",
+      image: "pic4.jpg",
       title: "Highway",
      
     }
