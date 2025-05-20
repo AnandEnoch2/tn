@@ -14,34 +14,41 @@ const InactivityAds: React.FC<InactivityAdsProps> = ({ timeout = 10000 }) => {
   const ads = [
     {
       id: 1,
-      image: "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg",
-      title: "Smart City Initiatives",
-      description: "Join us in building a better tomorrow"
+      image: "/pic7.JPG",
+      title: "Temple",
+      
     },
     {
       id: 2,
-      image: "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg",
-      title: "Digital Payments",
-      description: "Safe, secure, and convenient"
+      image: "/pic5.JPG",
+      title: "Development",
+      
     },
     {
       id: 3,
-      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+      image: "/pic8.JPG",
       title: "Green City Program",
-      description: "Supporting sustainable urban development"
+      
     },
     {
       id: 4,
-      image: "https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg",
+      image: "/pic9.JPG",
       title: "Urban Development",
-      description: "Creating modern infrastructure"
+     
     },
     {
       id: 5,
-      image: "https://images.pexels.com/photos/3184432/pexels-photo-3184432.jpeg",
-      title: "Community Services",
-      description: "Working together for a better city"
+      image: "/pic1.JPG",
+      title: "Economic Zone",
+      
+    },
+    {
+      id: 6,
+      image: "pic4.JPG",
+      title: "Highway",
+     
     }
+    
   ];
 
   const resetTimer = () => {
